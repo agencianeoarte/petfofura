@@ -1,0 +1,79 @@
+PET FOFURA & CONSULTÓRIO VETERINÁRIO
+Projeto demonstrativo one page — Agência Neo Arte
+
+ARQUIVOS
+- index.html: página completa.
+- styles.css: layout, identidade visual e responsividade.
+- config.js: número do WhatsApp (alterar aqui quando necessário).
+- script.js: menu mobile, animações, galeria, formulário e botões.
+- assets/: logomarca e fotografias em arquivos locais.
+
+COMO TESTAR
+1. Descompacte o arquivo ZIP.
+2. Abra a pasta pet_fofura_site.
+3. Abra index.html no navegador.
+4. Para testes completos de fontes e Google Maps, publique em um servidor HTTP/HTTPS.
+
+COMO PUBLICAR
+- cPanel/HostGator: envie os arquivos da pasta pet_fofura_site para a public_html (não a pasta inteira, a menos que deseje um subdiretório).
+- GitHub Pages: envie os arquivos para a raiz do repositório configurado para Pages.
+- Após publicar, verifique HTTPS, menu, formulário, WhatsApp e mapa.
+
+CONTATOS / CONFIGURAÇÃO
+- WhatsApp inicial: (45) 98824-9009 (config.js)
+- Instagram: https://www.instagram.com/petfofura.vet/
+- Endereço referência: Av. Brasil, 2962 — São Cristóvão, Cascavel/PR.
+- Link da agência no rodapé: https://neoartepub.com.br/
+
+ANTES DE PUBLICAR COMO SITE OFICIAL
+1. Obter autorização da empresa para uso comercial da identidade e do nome.
+2. Trocar logo recortada do print por arquivo original de boa resolução e transparente.
+3. Substituir imagens ilustrativas de banho, tosa, atendimento e produtos por fotos reais autorizadas; somente a fachada deriva da imagem recebida do usuário.
+4. Confirmar todos os dados comerciais, endereço, serviços ofertados e condições dos cartões.
+5. A frase 'Aceitamos cartões de crédito' precisa da confirmação da empresa e as bandeiras são meramente indicativas.
+6. A página está em modo DEMONSTRAÇÃO, com meta robots=noindex,nofollow. Após autorização para o site oficial, altere para index,follow e configure domínio/canonical/Google Search Console.
+7. O formulário não envia dados para banco de dados nem para servidor: ele apenas gera uma mensagem e abre o WhatsApp do cliente.
+8. O Google Maps depende de conexão com a internet, e os serviços externos podem demorar a carregar.
+
+FUNCIONALIDADES
+- Banner full width / hero responsivo.
+- Serviços com CTAs dedicados ao WhatsApp.
+- Como funciona em 3 passos.
+- Quem somos + referência de fachada.
+- Galeria horizontal com botões e visualização ampliada.
+- FAQs expansíveis.
+- Endereço/mapa Google Maps e link para rota.
+- Formulário com nome, WhatsApp, serviço e mensagem.
+- Menu mobile, animações suaves e botão voltar ao topo.
+- Rodapé com logo, redes, contatos, cartões e crédito/link à Agência Neo Arte.
+
+OBSERVAÇÃO
+Trata-se de uma proposta visual/comercial não contratada e não publicada oficialmente pela Pet Fofura.
+
+
+ATUALIZAÇÃO DA GALERIA — 04/11/2026
+- Setas e indicadores realmente movimentam as fotos no desktop e no celular.
+- Galeria com gesto de deslizar (swipe) no celular e navegação por teclado.
+- Ampliação de fotos em janela com miniaturas, setas, Escape e swipe.
+- Botão Reproduzir/Pausar: apresentação automática suave (inicialmente ativada em telas maiores, respeitando a opção de reduzir movimento do sistema).
+- Animações discretas ao passar o mouse, sem bibliotecas externas.
+- Todas as imagens de serviço permanecem demonstrativas; somente a fachada fornecida é imagem real enviada na conversa.
+- Para atualizar, envie TODOS os arquivos da pasta pet_fofura_site para a raiz do site. Substitua index.html, styles.css, script.js e mantenha a pasta assets.
+- Se navegador mostrar visual antigo, pressione Ctrl+F5 para atualizar o cache.
+
+ATUALIZACAO DA GALERIA - 04/11/2026
+- Substituidas as tres imagens de banho, tosa e veterinaria por ilustracoes fotorrealistas de maior resolucao.
+- As imagens foram geradas por IA e nao sao fotografias autenticadas da Pet Fofura; troque por fotos reais autorizadas antes da publicacao oficial.
+- Arquivos: galeria-banho-fotorealista.webp, galeria-tosa-fotorealista.webp, galeria-vet-fotorealista.webp.
+- Para evitar cache, as referencias do HTML usam novos nomes de arquivos.
+
+ATUALIZACAO — FOTOS REAIS DE BANCO (04/11/2026)
+- Substituidas imagens nos 3 cards de serviços e nas 4 primeiras fotos da galeria.
+- Fonte: Pexels, fotografias de pessoas e animais reais, licenciadas para uso comercial.
+- IMPORTANTE: as fotos sao de banco e NAO sao fotos de atendimentos da Pet Fofura. A fachada e a referencia enviada pelo usuario.
+- Nesta versao, as fotos Pexels carregam por URL HTTPS externa, portanto e necessaria conexao com a internet para visualiza-las.
+- Para manter as fotos DENTRO do projeto sem depender de terceiros, execute o arquivo BAIXAR_FOTOS.bat no Windows ANTES de enviar os arquivos para a hospedagem.
+  O script baixa as 7 fotos e substitui automaticamente as referencias do HTML por arquivos locais.
+- Nao foi possivel baixar os arquivos externos neste ambiente; o carregamento online nao foi verificado aqui.
+- Confira as fontes/licencas no arquivo FONTES_DAS_FOTOS.txt.
+- CSS, JS, WhatsApp, formularios, galeria interativa e fachada preservados.
